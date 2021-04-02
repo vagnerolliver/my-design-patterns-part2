@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx nodemon index"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/vagnerolliver/my-design-patterns-part2/issues"
   },
-  "homepage": "https://github.com/vagnerolliver/my-design-patterns-part2#readme"
+  "homepage": "https://github.com/vagnerolliver/my-design-patterns-part2#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
