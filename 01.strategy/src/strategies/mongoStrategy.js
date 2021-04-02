@@ -1,14 +1,14 @@
 export default class MongoDBStrategy  {
-    constructor(dbStrategy) {
-        this.dbStrategy = dbStrategy
-    }
+  constructor(dbStrategy) {
+    this.dbStrategy = dbStrategy
+  }
 
-    async connect() {
-     }
+  async connect() {
+  }
 
-    async create(item) {
-     }
+  async create(item) {
+  }
 
-    async read(item) {
-     }
+  async read(item) {
+  }
 }

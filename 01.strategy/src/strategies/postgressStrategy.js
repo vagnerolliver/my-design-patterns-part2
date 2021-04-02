@@ -1,15 +1,15 @@
 export default class PostgressDBStrategy  {
-    constructor(dbStrategy) {
-        this.dbStrategy = dbStrategy
-    }
+  constructor(dbStrategy) {
+    this.dbStrategy = dbStrategy
+  }
 
-    async connect() {
-        console.log("connected")
-    }
+  async connect() {
+    console.log("connected")
+  }
 
-    async create(item) {
-     }
+  async create(item) {
+  }
 
-    async read(item) {
-     }
+  async read(item) {
+  }
 }
